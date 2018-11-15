@@ -7,13 +7,13 @@
 
 Introduction:
 =============
-This software is the implementation of the 3D point pattern matching algorithm that has been published in the following article. Please cite the following article if you use this algorithm in you research. Contact the NCSU (refer to the provided license) for commercial use.
+This software is the implementation of the 3D point pattern matching algorithm that has been published in the following article. Please cite the following article if you use this algorithm in your research. Contact the NCSU (refer to the provided license) for commercial use.
 
 `Banadaki A.D., Maldonis J.J., Voyles P.M., Patala S., "*Point-Pattern Matching Technique for Local Structural Analysis in Condensed Matter*", Submitted in 2018 <https://arxiv.org/abs/>`__
 
 Installation:
 ==========
-If you are on a debian OS, or Ubuntu, the repository ships with the compiled shared library(``point_match.so``). On other linux distributions you will need to compile the package. For other OS contact the authors.
+If you are on a debian based OS, or Ubuntu, the repository ships with the compiled shared library(``point_match.so``). On other linux distributions you will need to compile the package. For other OS contact the authors.
 
 1.  **Clone the ppm3d repository from github:**      
     
@@ -74,14 +74,14 @@ How to Use This Package:
                 
 ..         >>> import ppm3d
                           
-1.  **Call the ``find_map`` function from pppm3d.py to find a given set of points (model) in a 3d point target:**
+1.  **Call the ** ``**find_map**`` **function from pppm3d.py to find a given set of points (model) in a 3d point target:**
                 
     .. code-block:: pycon
                 
         >>> ppm3d.find_map(model, target, 3, True, weights)
 
 
-1.  **Call the ``absor`` function to align the mapped target to the model:**
+1.  **Call the** ``**absor**`` **function to align the mapped target to the model:**
                 
     .. code-block:: pycon
                 
