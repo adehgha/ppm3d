@@ -85,7 +85,7 @@ How to Use This Package:
                 
     .. code-block:: pycon
                 
-        >>> ppm3d.absor(absor(model, target, False, weights)        
+        >>> ppm3d.absor(model, target, False, weights)        
                 
                                
 Consult the `documentation <https://cdn.rawgit.com/adehgha/>`__ for further details.
