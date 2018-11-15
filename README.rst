@@ -74,14 +74,14 @@ How to Use This Package:
                 
 ..         >>> import ppm3d
                           
-1.  **Call the ** ``**find_map**`` **function from pppm3d.py to find a given set of points (model) in a 3d point target:**
+1.  **Call the** ``find_map`` **function from pppm3d.py to find a given set of points (model) in a 3d point target:**
                 
     .. code-block:: pycon
                 
         >>> ppm3d.find_map(model, target, 3, True, weights)
 
 
-1.  **Call the** ``**absor**`` **function to align the mapped target to the model:**
+1.  **Call the** ``absor`` **function to align the mapped target to the model:**
                 
     .. code-block:: pycon
                 
