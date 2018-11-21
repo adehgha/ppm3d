@@ -11,7 +11,7 @@ Introduction:
 =============
 This software is the implementation of the 3D point pattern matching algorithm that has been published in the following article. Please cite the following article if you use this algorithm in your research. Contact the NCSU (refer to the provided license) for commercial use.
 
-`Banadaki AD, Maldonis JJ, Voyles PM, Patala S., "*Point-Pattern Matching Technique for Local Structural Analysis in Condensed Matter*", arXiv preprint arXiv:1811.06098. 2018 Nov 14. <https://arxiv.org/abs/1811.06098v2>`__
+`Banadaki AD, Maldonis JJ, Voyles PM, Patala S., "Point-Pattern Matching Technique for Local Structural Analysis in Condensed Matter", arXiv preprint arXiv:1811.06098. 2018 Nov 14. <https://arxiv.org/abs/1811.06098v2>`__
 
 
 Installation:
@@ -116,7 +116,7 @@ Prerequisites:
 Cite ppm3d:
 ========================
 
-`Banadaki AD, Maldonis JJ, Voyles PM, Patala S., "*Point-Pattern Matching Technique for Local Structural Analysis in Condensed Matter*", arXiv preprint arXiv:1811.06098. 2018 Nov 14. <https://arxiv.org/abs/1811.06098v2>`__
+`Banadaki AD, Maldonis JJ, Voyles PM, Patala S., "Point-Pattern Matching Technique for Local Structural Analysis in Condensed Matter", arXiv preprint arXiv:1811.06098. 2018 Nov 14. <https://arxiv.org/abs/1811.06098v2>`__
 
                 
 Credits:
