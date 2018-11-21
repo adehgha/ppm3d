@@ -91,7 +91,7 @@ How to Use This Package:
         >>> ppm3d.absor(model, target, False, weights)        
                 
 
-3.  **Call the** ``align_polys`` **function to perform the steps 1 and 2:**
+3.  **Call the** ``align_polys`` **function to perform the steps 1 and 2, combined:**
                 
     .. code-block:: pycon
                 
