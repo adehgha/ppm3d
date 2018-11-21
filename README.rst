@@ -11,7 +11,8 @@ Introduction:
 =============
 This software is the implementation of the 3D point pattern matching algorithm that has been published in the following article. Please cite the following article if you use this algorithm in your research. Contact the NCSU (refer to the provided license) for commercial use.
 
-`Banadaki A.D., Maldonis J.J., Voyles P.M., Patala S., "*Point-Pattern Matching Technique for Local Structural Analysis in Condensed Matter*", Submitted in 2018 <https://arxiv.org/abs/>`__
+`Banadaki AD, Maldonis JJ, Voyles PM, Patala S., "*Point-Pattern Matching Technique for Local Structural Analysis in Condensed Matter*", arXiv preprint arXiv:1811.06098. 2018 Nov 14. <https://arxiv.org/abs/1811.06098v2>`__
+
 
 Installation:
 ==========
@@ -83,13 +84,20 @@ How to Use This Package:
         >>> ppm3d.find_map(model, target, 3, True, weights)
 
 
-1.  **Call the** ``absor`` **function to align the mapped target to the model:**
+2.  **Call the** ``absor`` **function to align the mapped target to the model:**
                 
     .. code-block:: pycon
                 
         >>> ppm3d.absor(model, target, False, weights)        
                 
-                               
+
+3.  **Call the** ``align_polys`` **function to perform the steps 1 and 2:**
+                
+    .. code-block:: pycon
+                
+        >>> rmsd_error, failure_flag, alignment_attributes = ppm3d.align_polys((model, target, model_weights, target_weights))      
+
+
 Consult the `documentation <https://cdn.rawgit.com/adehgha/>`__ for further details.
         
         
@@ -108,7 +116,7 @@ Prerequisites:
 Cite ppm3d:
 ========================
 
-`Banadaki A.D., Maldonis J.J., Voyles P.M., Patala S., "*Point-Pattern Matching Technique for Local Structural Analysis in Condensed Matter*", Submitted in 2018 <https://arxiv.org/abs/>`__
+`Banadaki AD, Maldonis JJ, Voyles PM, Patala S., "*Point-Pattern Matching Technique for Local Structural Analysis in Condensed Matter*", arXiv preprint arXiv:1811.06098. 2018 Nov 14. <https://arxiv.org/abs/1811.06098v2>`__
 
                 
 Credits:
